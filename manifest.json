@@ -1,0 +1,21 @@
+{
+  "name": "Google Translate Beatbox Helper",
+  "version": "1.0",
+  "description": "Adds a menu for Beatbox codes in German Google Translate",
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png"
+		  },
+  "content_scripts": [
+    {
+      "matches": ["http://translate.google.com/*"],
+      "css": ["styles.css"],
+      "js": ["jquery-1.6.2.min.js", "script.js"]
+    },
+    {
+      "matches": ["http://translate.google.de/*"],
+      "css": ["styles.css"],
+      "js": ["jquery-1.6.2.min.js", "script.js"]
+    }
+  ]
+}

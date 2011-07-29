@@ -1,0 +1,25 @@
+#gtranslate-beatbox-helper-container {
+	padding:0.2em 1em 0.2em 1em;
+	border:2px dashed #888;
+	margin-top:1em;
+}
+
+#gtranslate-beatbox-helper-container h3 {
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
+
+#gtranslate-beatbox-helper-container p {
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
+
+#gtranslate-beatbox-helper-example {
+	float:left;
+	font-style:italic;
+	margin-right:1em;
+}
+
+#gtranslate-beatbox-helper-controls {
+	margin-top:1em;
+}
