@@ -16,7 +16,6 @@
     "flam2":"kt",
     "flam tap":"kttp",
     "hi hat tap":"krp",
-//    "short roll":"pv", // two times in the list?!
     "better hi hat":"th",
     "instant rimshot":"thp, ds",
     "break":".",
