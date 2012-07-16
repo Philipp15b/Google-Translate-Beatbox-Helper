@@ -2,7 +2,12 @@
 In the German Google Translate is a little easter egg, a beatbox.
 There are a few commands for this and this extension helps you use them by adding a few buttons right into the Google Translate interface.
 
-## Installation
+##Bookmarklet
+
+Copy the contents of bookmarklet.js into the URL field of any bookmark in your browser. Make sure it is preceded by javascript:
+e.g. javascript:(function(){ ... })();
+
+## Chrome Exntension Installation
 Because this extension is not (yet) at the Google Chrome Web Store, you have to install it manually.
 There are two ways to do this:
 
