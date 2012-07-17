@@ -9,13 +9,11 @@
   "content_scripts": [
     {
       "matches": ["http://translate.google.com/*"],
-      "css": ["styles.css"],
-      "js": ["jquery-1.6.2.min.js", "script.js"]
+      "js": ["bookmarklet.js"]
     },
     {
       "matches": ["http://translate.google.de/*"],
-      "css": ["styles.css"],
-      "js": ["jquery-1.6.2.min.js", "script.js"]
+      "js": ["bookmarklet.js"]
     }
   ]
 }
